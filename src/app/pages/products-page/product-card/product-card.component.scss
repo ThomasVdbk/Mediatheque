@@ -1,0 +1,18 @@
+.bloc {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card {
+    width: auto;
+    background-color: darkgrey;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+}
