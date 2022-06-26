@@ -14,6 +14,7 @@ import { ProductListComponent } from './pages/products-page/product-list/product
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     FormsModule,
     BrowserAnimationsModule, 
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

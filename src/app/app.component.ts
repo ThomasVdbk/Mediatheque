@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { UtilisateurHttpService } from './services/utilisateur-http.service';
+import { ProduitHttpService } from './services/produit-http.service';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +9,5 @@ import { UtilisateurHttpService } from './services/utilisateur-http.service';
 export class AppComponent {
   title = 'Mediatheque';
 
-  constructor(private service: UtilisateurHttpService){}
+  constructor(private service: ProduitHttpService){}
 }
