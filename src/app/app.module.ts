@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     HomePageComponent,
     ProductsPageComponent,
     ProductListComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,

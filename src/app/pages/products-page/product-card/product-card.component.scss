@@ -4,6 +4,7 @@
 }
 
 .card {
+
     width: auto;
     background-color: darkgrey;
 
@@ -16,7 +17,13 @@ img {
     display: flex;
     justify-content: center;
 }
-// img
- //max-height: 300px;
-//width: 100%;
-//margin: 25px 0;
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 550px;
+
+
+}
