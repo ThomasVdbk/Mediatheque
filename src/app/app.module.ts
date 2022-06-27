@@ -8,14 +8,13 @@ import { FooterComponent } from './commons/footer/footer.component';
 import { NotFoundComponent } from './commons/not-found/not-found.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
-
+import { HttpClientModule } from '@angular/common/http';
 import { ProductCardComponent } from './pages/products-page/product-card/product-card.component';
 import { ProductListComponent } from './pages/products-page/product-list/product-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {HttpClientModule} from '@angular/common/http';
-
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -32,9 +31,11 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule, 
+    BrowserAnimationsModule,
     MatCardModule,
     MatToolbarModule,
+    HttpClientModule,
+    MatGridListModule,
     HttpClientModule
   ],
   providers: [],
